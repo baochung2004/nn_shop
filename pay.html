@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.scss" />
+  </head>
+  <body>
+    <!--Start Header-->
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <a href="">
+            <img src="assets/images/logo.svg" alt="" class="header__logo" />
+          </a>
+          <nav class="main-menu">
+            <ul class="main-menu__list">
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">Home</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">Shop</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">About</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-items">
+            <div class="header-item">
+              <a href=""><img src="assets/images/icon1.svg" alt="" /></a>
+            </div>
+            <div class="header-item">
+              <a href=""><img src="assets/images/icon2.svg" alt="" /></a>
+            </div>
+            <div class="header-item">
+              <a href=""><img src="assets/images/icon3.svg" alt="" /></a>
+            </div>
+            <div class="header-item">
+              <a href=""><img src="assets/images/icon4.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--End header-->
+    <!--Start banner-->
+    <section class="banner-page">
+      <img src="assets/images/banner.jpg" alt="" class="banner-page__image" />
+    </section>
+    <!--End banner-->
+    <section class="billing-details">
+      <div class="container">
+        <div class="billing-details-wrapper">
+          <div class="billing-details-wrapperinfo">
+            <div class="billing-details-info">
+              <h2 class="billing-details-title">Billing details</h2>
+              <div class="billing-details-name">
+                <div class="billing-details-fistname">
+                  <label class="billing-details-title__firstname"
+                    >First Name</label
+                  >
+                  <input class="billing-details-input__firstname" />
+                </div>
+                <div class="billing-details-lastname">
+                  <label class="billing-details-title__lastname"
+                    >Last Name</label
+                  >
+                  <input class="billing-details-input__lastname" />
+                </div>
+              </div>
+              <div class="billing-details-company">
+                <label class="billing-details-title__company">
+                  Company Name (Optional)</label
+                >
+
+                <input class="billing-details-input__company" />
+              </div>
+              <div class="billing-details-country">
+                <div class="billing-details-country">
+                  <label class="billing-details-title__country"
+                    >Country / Region</label
+                  >
+                  <select class="billing-details-select__country" name="" id="">
+                    <option value="">Sri Lanka</option>
+                  </select>
+                </div>
+              </div>
+              <div class="billing-details-streetaddress">
+                <div class="billing-details-streetaddress">
+                  <label class="billing-details-title__streetaddress"
+                    >Street address</label
+                  >
+                  <input class="billing-details-input__streetaddress" />
+                </div>
+              </div>
+              <div class="billing-details-city">
+                <div class="billing-details-city">
+                  <label class="billing-details-title__city">Town / City</label>
+                  <input class="billing-details-input__city" />
+                </div>
+              </div>
+              <div class="billing-details-province">
+                <div class="billing-details-province">
+                  <label class="billing-details-title__province"
+                    >Province</label
+                  >
+                  <select
+                    class="billing-details-select__province"
+                    name=""
+                    id=""
+                  >
+                    <option value="">Western Province</option>
+                  </select>
+                </div>
+              </div>
+              <div class="billing-details-zip">
+                <div class="billing-details-zip">
+                  <label class="billing-details-title__zip">Zip code</label>
+                  <input class="billing-details-input__zip" />
+                </div>
+              </div>
+              <div class="billing-details-phone">
+                <div class="billing-details-phone">
+                  <label class="billing-details-title__phone">Phone</label>
+                  <input class="billing-details-input__phone" />
+                </div>
+              </div>
+              <div class="billing-details-email">
+                <div class="billing-details-email">
+                  <label class="billing-details-title__email"
+                    >Email Address</label
+                  >
+                  <input class="billing-details-input__email" />
+                </div>
+              </div>
+              <div class="billing-details-additional">
+                <div class="billing-details-additional">
+                  <input
+                    class="billing-details-input__additional"
+                    placeholder="Additional information"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="billing-details-product">
+            <table class="billing-details-product-list">
+              <tr class="billing-details-product-item">
+                <th class="billing-details-product-title__product">Product</th>
+                <th class="billing-details-product-title__subtotal">
+                  Subtotal
+                </th>
+              </tr>
+              <tr class="billing-details-product-item">
+                <td class="billing-details-product-name">
+                  Asgaard sofa
+                  <span class="billing-details-product-quantity">x 1</span>
+                </td>
+                <td class="billing-details-product-price">25.000.000đ</td>
+              </tr>
+              <tr class="billing-details-product-item">
+                <td class="billing-details-product-subtotal">Subtotal</td>
+                <td class="billing-details-product-price">25.000.000đ</td>
+              </tr>
+              <tr class="billing-details-product-item">
+                <td class="billing-details-product-subtotal">Total</td>
+                <td class="billing-details-product-totalamount">25.000.000đ</td>
+              </tr>
+            </table>
+            <div class="billing-details-product-hr">
+              <hr class="billing-details-product-hritem" />
+            </div>
+            <div class="billing-details-product-banktransfer">
+              <input
+                type="radio"
+                class="billing-details-product-banktransfer__input"
+              />
+              <label for="" class="billing-details-product-banktransfer__name"
+                >Direct Bank Transfer</label
+              >
+            </div>
+            <p class="billing-details-product-banktransfer__description">
+              Make your payment directly into our bank account. Please use your
+              Order ID as the payment reference. Your order will not be shipped
+              until the funds have cleared in our account.
+            </p>
+            <div class="billing-details-product-payoptions">
+              <div class="billing-details-product-payoptions__bank">
+                <input
+                  type="radio"
+                  class="billing-details-product-payoptions__input"
+                />
+                <label for="" class="billing-details-product-payoptions__name"
+                  >Direct Bank Transfer</label
+                >
+              </div>
+              <div class="billing-details-product-payoptions__cash">
+                <input
+                  type="radio"
+                  class="billing-details-product-payoptions__input"
+                />
+                <label for="" class="billing-details-product-payoptions__name"
+                  >Cash On Delivery</label
+                >
+              </div>
+            </div>
+            <p class="billing-details-product-banktransfer__privacy">
+              Your personal data will be used to support your experience
+              throughout this website, to manage access to your account, and for
+              other purposes described in our privacy policy.
+            </p>
+            <div class="billing-details-product-action">
+              <button class="billing-details-product-action__button">
+                Place order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Start services-->
+    <section class="services">
+      <div class="container-fluid">
+        <div class="services-list">
+          <div class="services-item">
+            <img src="assets/images/icon5.svg" alt="" class="services__image" />
+            <div class="services-info">
+              <h4 class="services__name">High Quality</h4>
+              <p class="services__description">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="services-item">
+            <img src="assets/images/icon6.svg" alt="" class="services__image" />
+            <div class="services-info">
+              <h4 class="services__name">Warranty Protection</h4>
+              <p class="services__description">Over 2 years</p>
+            </div>
+          </div>
+          <div class="services-item">
+            <img src="assets/images/icon7.svg" alt="" class="services__image" />
+            <div class="services-info">
+              <h4 class="services__name">Free Shipping</h4>
+              <p class="services__description">Order over 150 $</p>
+            </div>
+          </div>
+          <div class="services-item">
+            <img src="assets/images/icon8.svg" alt="" class="services__image" />
+            <div class="services-info">
+              <h4 class="services__name">24 / 7 Support</h4>
+              <p class="services__description">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End services-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-list">
+          <div class="footer-item">
+            <img src="assets/images/logo.svg" alt="" class="footer-image" />
+            <p class="footer-description">
+              400 University Drive Suite 200 Coral Gables, FL 33134 USA
+            </p>
+          </div>
+          <div class="footer-item">
+            <h2 class="footer-title">Links</h2>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Home</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Shop</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Blog</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h2 class="footer-title">Help</h2>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Payment Options</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Returns</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Privacy Policies</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h2 class="footer-title">Newsletter</h2>
+            <form action="" class="newsletter">
+              <input
+                type="text"
+                class="newsletter__input"
+                placeholder="Enter Your Email Address"
+              />
+              <button class="newsletter__btn">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+        <p class="copyright">2023 furino. All rights reverved</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.scss" />
+  </head>
+  <body>
+    <!--Start Header-->
+    <!--Start Header-->
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <a href="">
+            <img src="assets/images/logo.svg" alt="" class="header__logo" />
+          </a>
+          <div class="button-mobile"><button>=</button></div>
+          <nav class="main-menu">
+            <ul class="main-menu__list">
+              <li class="main-menu__item">
+                <a href="index.html" class="main-menu__link">Home</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="shops.html" class="main-menu__link">Shop</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">About</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-items">
+            <div class="header-item">
+              <a href=""><img src="assets/images/icon1.svg" alt="" /></a>
+            </div>
+            <div class="header-item">
+              <a href=""><img src="assets/images/icon2.svg" alt="" /></a>
+            </div>
+            <div class="header-item">
+              <a href=""><img src="assets/images/icon3.svg" alt="" /></a>
+            </div>
+            <div class="header-item">
+              <a href=""><img src="assets/images/icon4.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--End header-->
+
+    <!--Start banner-->
+    <section class="banner-page">
+      <img src="assets/images/banner.jpg" alt="" class="banner-page__image" />
+    </section>
+    <section class="filter">
+      <div class="container">
+        <div class="filter-list">
+          <div class="filter-item">
+            <div class="filter-item-icon">
+              <div class="filter-item-iconfilter">
+                <img
+                  src="assets/images/shopicon1.svg"
+                  alt=""
+                  class="filter-item-icon__image"
+                />
+                <span class="filter-item-icon__title">Filter</span>
+              </div>
+              <div class="filter-item-iconfilter">
+                <img src="assets/images/shopicon2.svg" alt="" />
+              </div>
+              <div class="filter-item-iconfilter">
+                <img src="assets/images/shopicon3.svg" alt="" />
+              </div>
+            </div>
+            <div class="filter-item-left">
+              <span> Showing 1–16 of 32 results</span>
+            </div>
+          </div>
+          <div class="filter-item">
+            <div class="filter-item-show">
+              <span class="filter-item-show__title"> Show </span>
+              <input class="filter-item-show__input" placeholder="16" />
+            </div>
+            <div class="filter-item-byshow">
+              <span class="filter-item-shortby__title"> Short by </span>
+              <input class="filter-item-shortby__input" placeholder="Default" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="button-filter-mobile">
+            <img
+              src="assets/images/shopicon1.svg"
+              alt=""
+              class="button-filter-mobile-icon__image"
+            />
+            <span class="button-filter-mobile-icon__title">Filter</span>
+          </button>
+        </div>
+        <div>
+          <button class="button-show-mobile">
+            <img
+              src="assets/images/shopicon1.svg"
+              alt=""
+              class="button-filter-show-icon__image"
+            />
+            <span class="button-filter-show-icon__title">Show</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--End banner-->
+    <!--Start products-->
+    <section class="products">
+      <div class="container">
+        <div class="section-body">
+          <div class="product-list">
+            <!--start products row 1-->
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">New</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">New</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!--end products row 1-->
+            <!--start products row 2-->
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">New</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">New</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!--end products row 2-->
+            <!--start products row 3-->
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">New</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">New</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!--end products row 3-->
+            <!--start products row 4-->
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">New</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="assets/images/sp1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">New</span>
+              </div>
+              <div class="product-info">
+                <a href="" class="product-name"><h3>Syltherine</h3></a>
+                <a href="" class="product-category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.000.000</span>
+                  <span class="product-price__old">3.500.000</span>
+                </div>
+              </div>
+              <div class="product-actions">
+                <button class="product-actions__quickview">Quick View</button>
+                <button class="product-actions__addtocart">Add To Cart</button>
+                <div class="product-actions-more">
+                  <span class="product-actions__share"
+                    ><img
+                      src="assets/images/icon_share.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Share</span
+                  >
+                  <span class="product-actions__compare"
+                    ><img
+                      src="assets/images/icon9.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Compare</span
+                  >
+                  <span class="product-actions__like"
+                    ><img
+                      src="assets/images/icon_like.svg"
+                      alt=""
+                      class="product-actions-icon"
+                    />Like</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!--end products row 4-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End products-->
+    <!--Start controller-->
+    <section class="shop-page-controller">
+      <div class="container">
+        <div class="shop-page-controller">
+          <button class="shop-page-controller-numbernow">1</button>
+          <button class="shop-page-controller-number">2</button>
+          <button class="shop-page-controller-number">3</button>
+          <button class="shop-page-controller-next">Next</button>
+        </div>
+      </div>
+    </section>
+    <!--End controller-->
+    <!--Start services-->
+    <section class="services">
+      <div class="container-fluid">
+        <div class="services-list">
+          <div class="services-item">
+            <img src="assets/images/icon5.svg" alt="" class="services__image" />
+            <div class="services-info">
+              <h4 class="services__name">High Quality</h4>
+              <p class="services__description">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="services-item">
+            <img src="assets/images/icon6.svg" alt="" class="services__image" />
+            <div class="services-info">
+              <h4 class="services__name">Warranty Protection</h4>
+              <p class="services__description">Over 2 years</p>
+            </div>
+          </div>
+          <div class="services-item">
+            <img src="assets/images/icon7.svg" alt="" class="services__image" />
+            <div class="services-info">
+              <h4 class="services__name">Free Shipping</h4>
+              <p class="services__description">Order over 150 $</p>
+            </div>
+          </div>
+          <div class="services-item">
+            <img src="assets/images/icon8.svg" alt="" class="services__image" />
+            <div class="services-info">
+              <h4 class="services__name">24 / 7 Support</h4>
+              <p class="services__description">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End services-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-list">
+          <div class="footer-item">
+            <img src="assets/images/logo.svg" alt="" class="footer-image" />
+            <p class="footer-description">
+              400 University Drive Suite 200 Coral Gables, FL 33134 USA
+            </p>
+          </div>
+          <div class="footer-item">
+            <h2 class="footer-title">Links</h2>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Home</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Shop</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Blog</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h2 class="footer-title">Help</h2>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Payment Options</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Returns</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Privacy Policies</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h2 class="footer-title">Newsletter</h2>
+            <form action="" class="newsletter">
+              <input
+                type="text"
+                class="newsletter__input"
+                placeholder="Enter Your Email Address"
+              />
+              <button class="newsletter__btn">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+        <p class="copyright">2023 furino. All rights reverved</p>
+      </div>
+    </footer>
+  </body>
+</html>
